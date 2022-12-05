@@ -1,9 +1,11 @@
 import './App.css';
 
+import Navbar from "./modules/Navbar.jsx"
+
 function App() {
   return (
     <div>
-      <h1>Hello New World!!</h1>
+      <Navbar />
     </div>
   )
 }
